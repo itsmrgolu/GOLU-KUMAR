@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golu Kumar | Software Developer & Data Analyst</title>
+    <meta name="description" content="Portfolio of Golu Kumar - Software Developer and Data Analyst specializing in Python, Java, Web Technologies, SQL, and Data Analytics.">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Golu Kumar | Software Developer & Data Analyst">
+    <meta property="og:description" content="Explore the projects, experience, and technical skill set of Golu Kumar.">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Fixed Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Golu Kumar Monogram Logo">
+                <span class="logo-box">GK</span>
+                <span class="logo-text">Golu Kumar</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" class="btn btn-outline nav-btn" download target="_blank" rel="noopener">
+                    <i class="fa-solid fa-file-arrow-down"></i> <span>Resume</span>
+                </a>
+                <button class="hamburger" id="hamburger-menu" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="badge-dot"></span> Available for New Roles
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Golu Kumar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Developer & Data Analyst</h2>
+                    <p class="hero-description">
+                        Passionate software developer proficient in building responsive web platforms and delivering high-value data analytics. Specializing in Python, Java, SQL, and interactive web technologies.
+                    </p>
+
+                    <div class="hero-meta">
+                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Bengaluru / Bihar, India</span>
+                        <span class="meta-item"><i class="fa-solid fa-envelope"></i> itsmrgolu@gmail.com</span>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-code"></i> View Projects
+                        </a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/golukumar8684" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:itsmrgolu@gmail.com" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+918507873174" aria-label="Call Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">golukumar.config.sys</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="cmd-prompt">$</span> <span class="cmd-text">whoami</span></p>
+                            <p class="cmd-output">> Golu Kumar | MCA Graduate & Software Developer</p>
+                            
+                            <p><span class="cmd-prompt">$</span> <span class="cmd-text">fetch --skills</span></p>
+                            <p class="cmd-output">> Python, Java, C/C++, JavaScript, HTML/CSS, React.js, Node.js</p>
+                            
+                            <p><span class="cmd-prompt">$</span> <span class="cmd-text">fetch --data-stack</span></p>
+                            <p class="cmd-output">> SQL, MySQL, MongoDB, Tableau, Power BI, Excel</p>
+                            
+                            <p><span class="cmd-prompt">$</span> <span class="cmd-text">echo $STATUS</span></p>
+                            <p class="cmd-output text-success">> Ready for Software & Analytics Opportunities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3 class="about-heading"><i class="fa-solid fa-user-gear"></i> Profile & Background</h3>
+                        <p class="about-text">
+                            I am a Software Developer and Master of Computer Applications (MCA) graduate from Nitte Meenakshi Institute of Technology, Bengaluru. With hands-on internship experience in both data analytics and web development, I bridge the gap between technical software engineering and data-driven insights.
+                        </p>
+                        <p class="about-text">
+                            My expertise spans front-end and back-end web solutions, predictive modeling in Python, relational and NoSQL databases, and key performance dashboarding using Tableau and Power BI.
+                        </p>
+                    </div>
+
+                    <div class="about-card strengths-card">
+                        <h3 class="about-heading"><i class="fa-solid fa-bolt"></i> Core Strengths</h3>
+                        <ul class="strengths-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Problem Solver:</strong> Analytical mindset focused on clean solutions and data integrity.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Adaptable Team Player:</strong> Collaborative worker across cross-functional engineering teams.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Persuasive & Hard-Working:</strong> Dedicated professional committed to performance excellence.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Technical & Customer Support:</strong> Strong operational communication and technical troubleshooting.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="languages-and-hobbies">
+                    <div class="info-badge-card">
+                        <h4><i class="fa-solid fa-language"></i> Languages</h4>
+                        <div class="pill-group">
+                            <span class="tag-pill">English</span>
+                            <span class="tag-pill">Hindi</span>
+                            <span class="tag-pill">Bhojpuri</span>
+                        </div>
+                    </div>
+                    <div class="info-badge-card">
+                        <h4><i class="fa-solid fa-heart"></i> Hobbies & Interests</h4>
+                        <div class="pill-group">
+                            <span class="tag-pill"><i class="fa-solid fa-motorcycle"></i> Bike Racing</span>
+                            <span class="tag-pill"><i class="fa-solid fa-plane-departure"></i> Traveling</span>
+                            <span class="tag-pill"><i class="fa-solid fa-baseball-bat-ball"></i> Playing Cricket</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. Competencies</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
+                            <span class="skill-tag"><i class="fa-solid fa-terminal"></i> C / C++</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Tech -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code category-icon"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span class="skill-tag"><i class="fa-brands fa-react"></i> React.JS</span>
+                            <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database category-icon"></i>
+                            <h3>Databases & Data Analytics</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-server"></i> SQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-column"></i> Power BI</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-pie"></i> Tableau</span>
+                            <span class="skill-tag"><i class="fa-solid fa-file-excel"></i> MS Excel</span>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Testing -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-vial category-icon"></i>
+                            <h3>Frameworks & Testing</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-vial-circle-check"></i> Selenium</span>
+                            <span class="skill-tag"><i class="fa-solid fa-seedling"></i> Cucumber</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Version Control -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-wrench category-icon"></i>
+                            <h3>Tools & IDEs</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git (Beginner)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+                            <span class="skill-tag"><i class="fa-solid fa-cubes"></i> Eclipse</span>
+                            <span class="skill-tag"><i class="fa-solid fa-cube"></i> NetBeans</span>
+                            <span class="skill-tag"><i class="fa-solid fa-laptop-file"></i> IntelliJ IDEA</span>
+                            <span class="skill-tag"><i class="fa-solid fa-file-lines"></i> MS Office</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. Career Journey</span>
+                    <h2 class="section-title">Training & Internship Experience</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Internship 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Data Analyst Intern</h3>
+                                    <h4 class="company-name"><i class="fa-solid fa-building"></i> Ahana System and Solution Pvt. Ltd</h4>
+                                </div>
+                                <div class="timeline-meta">
+                                    <span class="badge-time"><i class="fa-regular fa-calendar"></i> Apr 2024 - Present</span>
+                                    <span class="badge-location"><i class="fa-solid fa-location-dot"></i> Bengaluru</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Conducted detailed data analysis to support critical decision-making processes for auto financing services.</li>
+                                <li>Developed and maintained interactive dashboards to visualize key performance indicators (KPIs) and business metrics.</li>
+                                <li>Extracted, cleaned, and transformed large datasets to ensure complete data integrity and accuracy.</li>
+                                <li>Collaborated closely with cross-functional teams to identify specific data requirements and deliver actionable strategic insights.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">SQL</span>
+                                <span class="tech-badge">Excel</span>
+                                <span class="tech-badge">Tableau</span>
+                                <span class="tech-badge">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Web Technology Intern</h3>
+                                    <h4 class="company-name"><i class="fa-solid fa-building"></i> X-works</h4>
+                                </div>
+                                <div class="timeline-meta">
+                                    <span class="badge-time"><i class="fa-regular fa-calendar"></i> Jan 2024 - Mar 2024</span>
+                                    <span class="badge-location"><i class="fa-solid fa-location-dot"></i> Bengaluru</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Developed a user-friendly dashboard for monitoring Bitcoin market trends and data.</li>
+                                <li>Implemented responsive web design standards to ensure full compatibility across various mobile and desktop viewports.</li>
+                                <li>Created secure registration and login forms integrated with robust authentication mechanisms.</li>
+                                <li>Utilized HTML, CSS, and JavaScript to construct interactive and visually appealing frontend layouts.</li>
+                                <li>Collaborated with the core development team to seamlessly integrate backend services with the frontend interface.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. Featured Work</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-type"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                            <h3 class="project-title">Predicting House Prices</h3>
+                        </div>
+                        <div class="project-card-body">
+                            <p class="project-objective">
+                                <strong>Objective:</strong> Develop a linear regression model in Python to accurately predict house prices based on room counts and attributes.
+                            </p>
+                            <p class="project-outcome">
+                                <strong>Outcome:</strong> Demonstrated solid proficiency in machine learning principles and enhanced quantitative predictive analytics capabilities.
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Machine Learning</span>
+                                <span class="tech-badge">Regression</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-type"><i class="fa-solid fa-hospital"></i> Software Engineering</div>
+                            <h3 class="project-title">Hospital Management System</h3>
+                        </div>
+                        <div class="project-card-body">
+                            <p class="project-objective">
+                                <strong>Objective:</strong> Design and implement a robust Java-based Hospital Management System to showcase object-oriented design principles.
+                            </p>
+                            <p class="project-outcome">
+                                <strong>Outcome:</strong> Successfully executed a comprehensive healthcare software system, emphasizing user workflow efficiency, system stability, and data usability.
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div class="project-tech">
+                                <span class="tech-badge">Java</span>
+                                <span class="tech-badge">OOP</span>
+                                <span class="tech-badge">Software Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-type"><i class="fa-solid fa-chart-line"></i> Analytics & Optimization</div>
+                            <h3 class="project-title">Kotak Mahindra Prime Limited Project</h3>
+                        </div>
+                        <div class="project-card-body">
+                            <p class="project-objective">
+                                <strong>Objective:</strong> Analyze and optimize financial data processes to support key decision-making for auto financing services.
+                            </p>
+                            <p class="project-outcome">
+                                <strong>Outcome:</strong> Provided actionable business insights and built interactive visualizations that measurably improved strategic decisions and loan approval workflows.
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">SQL</span>
+                                <span class="tech-badge">Excel</span>
+                                <span class="tech-badge">Tableau</span>
+                                <span class="tech-badge">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">05. Academic Qualifications</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-year"><i class="fa-regular fa-calendar"></i> Oct 2022 - Aug 2024</span>
+                            <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
+                            <h4 class="edu-school">Nitte Meenakshi Institute of Technology</h4>
+                            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Bengaluru, INDIA</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-year"><i class="fa-regular fa-calendar"></i> July 2018 - Dec 2021</span>
+                            <h3 class="edu-degree">Bachelor of Computer Application (BCA)</h3>
+                            <h4 class="edu-school">Pataliputra University</h4>
+                            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Patna, Bihar, INDIA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">06. Professional Verification</span>
+                    <h2 class="section-title">Certifications & Training</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-cloud"></i></div>
+                        <div class="cert-info">
+                            <h3>Cloud Computing Distributed System</h3>
+                            <p class="cert-issuer">NPTEL</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="cert-info">
+                            <h3>Artificial Intelligence & Machine Learning using Python</h3>
+                            <p class="cert-issuer">Workshop Certification</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                        <div class="cert-info">
+                            <h3>AWS Lambda Foundation</h3>
+                            <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <div class="cert-info">
+                            <h3>Backtracking Algorithm</h3>
+                            <p class="cert-issuer">Great Learning</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="cert-info">
+                            <h3>Fundamental Cloud Computing</h3>
+                            <p class="cert-issuer">Cloud Knowledge Credentials</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Highlights / Evidence-Based Highlights -->
+        <section id="highlights" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">07. Core Strengths</span>
+                    <h2 class="section-title">Professional Highlights</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="highlights-grid">
+                    <div class="highlight-box">
+                        <div class="highlight-number">01</div>
+                        <h3>Dual Analytical & Engineering Stack</h3>
+                        <p>Proven competency across Java enterprise programming, web developments, and analytical tools like Power BI and Tableau.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <div class="highlight-number">02</div>
+                        <h3>Fintech Data Optimization</h3>
+                        <p>Direct exposure analyzing auto-financing datasets and optimizing approval analytics at Kotak Mahindra Prime Limited projects.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <div class="highlight-number">03</div>
+                        <h3>Structured MCA Training</h3>
+                        <p>Rigorous postgraduate computer application foundation from Nitte Meenakshi Institute of Technology, Bengaluru.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">08. Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-detail">
+                                <span class="label">Email</span>
+                                <a href="mailto:itsmrgolu@gmail.com" class="value">itsmrgolu@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-detail">
+                                <span class="label">Phone</span>
+                                <a href="tel:+918507873174" class="value">+91 8507873174</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-detail">
+                                <span class="label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/golukumar8684" target="_blank" rel="noopener" class="value">linkedin.com/in/golukumar8684</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-detail">
+                                <span class="label">Locations</span>
+                                <span class="value">Bengaluru & Bihar, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#hero" class="nav-logo">
+                    <span class="logo-box">GK</span>
+                    <span class="logo-text">Golu Kumar</span>
+                </a>
+                <p>Software Developer & Data Analyst</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Golu Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+</body>
+</html>
